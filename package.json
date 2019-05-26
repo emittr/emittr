@@ -1,0 +1,37 @@
+{
+	"name": "@emittr/emittr",
+	"version": "0.1.0",
+	"description": "A framework agnostic way of building Event Dispatchers for TypeScript.",
+	"homepage": "https://github.com/emittr/emittr",
+	"bugs": {
+		"url": "https://github.com/emittr/emittr/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:emittr/emittr.git"
+	},
+	"license": "MIT",
+	"author": "Brian Faust <hello@basecode.sh>",
+	"files": [
+		"dist"
+	],
+	"main": "dist/index",
+	"types": "dist/index",
+	"scripts": {
+		"build": "yarn clean && tsc",
+		"build:watch": "yarn build -w",
+		"clean": "rimraf .coverage dist tmp",
+		"format": "yarn lint && yarn prettier",
+		"lint": "tslint -c tslint.json -p tslint.json 'src/**/*.ts' --fix",
+		"prepublishOnly": "yarn format && yarn build",
+		"prettier": "prettier --write \"./*.{ts,js,json,md}\" \"./**/*.{ts,js,json,md}\""
+	},
+	"devDependencies": {
+		"@faustbrian/tslint": "^0.1.2",
+		"codecov": "^3.3.0",
+		"prettier": "^1.17.0",
+		"rimraf": "^2.6.3",
+		"tslint": "^5.16.0",
+		"typescript": "^3.4.5"
+	}
+}
