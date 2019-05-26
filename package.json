@@ -1,6 +1,6 @@
 {
 	"name": "@emittr/emittr",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A framework agnostic way of building Event Dispatchers for TypeScript.",
 	"homepage": "https://github.com/emittr/emittr",
 	"bugs": {
