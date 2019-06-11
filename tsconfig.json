@@ -1,5 +1,5 @@
 {
-	"extends": "@sindresorhus/tsconfig",
+	"extends": "@typeskrift/tsconfig",
 	"compilerOptions": {
 		"alwaysStrict": true,
 		"incremental": true,
