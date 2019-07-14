@@ -28,11 +28,11 @@
 	},
 	"devDependencies": {
 		"@typeskrift/tslint": "^0.1.5",
-		"@typeskrift/tsconfig": "^0.1.0",
+		"@typeskrift/tsconfig": "^0.1.2",
 		"codecov": "^3.5.0",
 		"prettier": "^1.18.2",
 		"rimraf": "^2.6.3",
-		"tslint": "^5.17.0",
-		"typescript": "^3.5.1"
+		"tslint": "^5.18.0",
+		"typescript": "^3.5.3"
 	}
 }
