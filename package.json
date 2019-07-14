@@ -22,12 +22,12 @@
 		"build:watch": "yarn build -w",
 		"clean": "rimraf .coverage dist tmp",
 		"format": "yarn lint && yarn prettier",
-		"lint": "tslint -c tslint.json -p tslint.json 'src/**/*.ts' --fix",
+		"lint": "tslint -c tslint.json -p tslint-project.json 'src/**/*.ts' --fix",
 		"prepublishOnly": "yarn format && yarn build",
 		"prettier": "prettier --write \"./*.{ts,js,json,md}\" \"./**/*.{ts,js,json,md}\""
 	},
 	"devDependencies": {
-		"@faustbrian/tslint": "^0.1.3",
+		"@typeskrift/tslint": "^0.1.5",
 		"@typeskrift/tsconfig": "^0.1.0",
 		"codecov": "^3.5.0",
 		"prettier": "^1.18.2",
