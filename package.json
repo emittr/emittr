@@ -27,12 +27,12 @@
 		"prettier": "prettier --write \"./*.{ts,js,json,md}\" \"./**/*.{ts,js,json,md}\""
 	},
 	"devDependencies": {
-		"@typeskrift/tslint": "^0.1.5",
-		"@typeskrift/tsconfig": "^0.1.2",
-		"codecov": "^3.5.0",
-		"prettier": "^1.18.2",
-		"rimraf": "^2.6.3",
-		"tslint": "^5.18.0",
-		"typescript": "^3.5.3"
+		"@typeskrift/tslint": "0.1.5",
+		"@typeskrift/tsconfig": "0.1.2",
+		"codecov": "3.5.0",
+		"prettier": "1.18.2",
+		"rimraf": "2.6.3",
+		"tslint": "5.18.0",
+		"typescript": "3.5.3"
 	}
 }
